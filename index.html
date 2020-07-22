@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="css/layout.css">
+        <link rel="stylesheet" href="css/basic.css">
+    </head>
+    <body>
+        <div id="topBanner" class="top-wide-popup" style="height: 110px;"> <!--배너-->
+            <div class="top_wide" style="display: block;">
+                <p class="txt">
+                <a href="http://www.kocca.kr/cop/bbs/view/B0000137/1841878.do?menuNo=200827&noticevent=Y">
+                    <img src="http://www.kocca.kr/img/main/tit_top_bnr_20200422_1.jpg" alt="코로나19 피해콘텐츠기업 대상 정부 및 공공기관 지원 정책 및 제도 안내 - 코로나19로 타격을 입은  콘텐츠 기업에 대한 정부 및 공공기관의 지원 정책 및 제도에 대해 안내드립니다./ 자세히 보기 / 한국콘텐츠진흥원 KOREA CREATIVE CONTENT AGENCY 로고, 힘내라 대한민국 슬로건">
+                </a>
+            </p>
+            <div class="close_button">
+                <p class="close"> <!--닫기 버튼-->
+                <button type="button" name="close" value="OK" id="close">
+                    <span>배너 닫기</span>
+                </button>
+                </p>
+            </div>
+            </div>
+        </div>
+
+        <section id="header_area"> <!--헤더-->
+            <header>
+                <div class="container">
+                    <h1 class="logo">
+                        <a href="http://www.kocca.kr/cop/main.do">
+                            <img src="http://www.kocca.kr/img/common/logo_main.png" alt="한국콘텐츠진흥원 KOREA CREATIVE CONTENT AGENCY">
+                        </a>
+                    </h1>
+                    <ul class="tnb"> <!--탑 네비게이션 바-->
+                        <li>
+                            <a href="http://www.kocca.kr/cop/member/loginPage.do?menuNo=200936">로그인</a>
+                        </li>
+                        <li>
+                            <a href="http://www.kocca.kr/cop/member/joinMain.do?menuNo=200937">회원가입</a>
+                        </li>
+                        <li class="language on">
+                            <a href="http://www.kocca.kr/cop/main.do">KR</a>
+                        </li>
+                        <li class="language">
+                            <a href="http://www.kocca.kr/en/main.do">EN</a>
+                        </li>
+                        <li class="language">
+                            <a href="http://www.kocca.kr/ch/main.do">CN</a>
+                        </li>
+                        <li class="language">
+                            <a href="http://www.kocca.kr/jp/main.do">JP</a>
+                        </li>
+                        <li class="no_line">
+                            <a href="#self" class="total_arr_cop">사업별사이트</a>
+                            <div class="total_menu_cop" style="display: none;">
+                                <span class="total_menu_arr_cop"></span>
+                                <h3 class="blind">전체메뉴 보기</h3>
+                                <ul>
+                                    <li class="listbox1">
+                                        <h4 class="mt0">정보포털</h4>
+                                        <ul class="list1">
+                                            <li>콘텐츠산업정보포털</li>
+                                            <li>기능성게임포털</li>
+                                            <li>콘텐츠도서관</li>
+                                            <li>스토리움</li>
+                                            <li>게임이용자가진단</li>
+                                            <li>글로벌게임허브센터</li>
+                                            <li>콘텐츠수출마케팅플랫폼</li>
+                                            <li>이달의우수게임</li>
+                                            <li>대중문화예술종합정보시스템</li>
+                                            <li>콘텐츠가치평가센터</li>
+                                            <li>콘텐츠성평등센터 '보라'</li>
+                                            <li>대중문화예술상</li>
+                                            <li>건전게임문화직무연수</li>
+                                        </ul>
+                                    </li>
+                                    <li class="listBox2 brn">
+                                        <h4 class="mt0">사업관리</h4>
+                                        <ul>
+                                            <li>보조사업비관리시스템</li>
+                                            <li>연구개발정보관리시스템</li>
+                                        </ul>
+                                    </li>
+                                    <li class="listBox3 brn">
+                                        <h4 class="mt0">교육취업</h4>
+                                        <ul>
+                                            <li>한국콘텐츠아카데미</li>
+                                            <li>게임국가기술자격검정</li>
+                                            <li>콘텐츠코리아랩</li>
+                                        </ul>
+                                    </li>
+                                    <li class="listBox4 brn">
+                                        <h4 class="mt0">콘텐츠유통</h4>
+                                        <ul>
+                                            <li>역사문화포털 '컬처링'</li>
+                                            <li>문화콘텐츠닷컴</li>
+                                        </ul>
+                                    </li>
+                                    <li class="listBox5 brn bbn">
+                                        <h4 class="mt0">이용보호</h4>
+                                        <ul>
+                                            <li>콘텐츠분쟁조정위원회</li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="gnb_wrap">
+                    <div class="container">
+                        <ul class="gnb">
+                            <li>
+                                <a href="http://www.kocca.kr/cop/center/subMain.do?menuNo=200917">고객센터</a>
+                            </li>
+                            <li>
+                                <a href="http://www.kocca.kr/cop/pims/list.do?menuNo=200828">알림마당</a>
+                            </li>
+                            <li>
+                                <a href="http://www.kocca.kr/cop/businessinfo/list.do?menuNo=200955&year=2019">사업안내</a>
+                            </li>
+                            <li>
+                                <a href="http://www.kocca.kr/cop/contentsplaza/subMain.do?menuNo=200858">콘텐츠광장</a>
+                            </li>
+                            <li>
+                                <a href="http://www.kocca.kr/cop/bbs/list/B0000141.do?menuNo=200898">콘텐츠지식</a>
+                            </li>
+                            <li>
+                                <a href="http://www.kocca.kr/cop/contents.do?menuNo=201624">열린경영</a>
+                            </li>
+                            <li>
+                                <a href="http://www.kocca.kr/cop/contents.do?menuNo=200786">진흥원소개</a>
+                            </li>
+                        </ul>
+                        <div class="etc_btn_box">
+                            <a href="#" class="search_btn">
+                                "검색"
+                            </a>
+                            <a href="#" class="menu_btn">전체메뉴</a>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <div class="container" id="showYn">
+                <div class="visual_text">
+                    <img src="http://www.kocca.kr/img/main/main_text.png" alt="누구나 콘텐츠로 일상을 풍요롭게">
+                    <div class="background">
+                        <p>
+                        한국콘텐츠진흥원은 공정과 상생,<br>
+                        소통과 공감의 사람중심 콘텐츠산업을<br>
+                        구현하고 지원하고 있습니다.
+                        </p>
+                    </div>
+                </div>
+                <div id="main_alimBanner" class="pr_banner">
+                    <div class="owl-item active" style="width: 570px;">
+                        <a href="http://www.kocca.kr/cop/bbs/view/B0000137/1842649.do?menuNo=200827&noticevent=Y" title="게임문화 창작콘텐츠 공모전">
+                        <img src="http://www.kocca.kr/crawling/upload2013/portalAlert/images/01/B_202006291058289920.png" alt="#내 인생을 꽃피운 게임/ 게임문화창작콘텐츠 공모전/ 2020.7.13 MON~9.14 MON">
+                        </a>
+                    </div>
+                    <div class="owl-nav disabled">
+                        <a class="owl-prev">이전슬라이드</a>
+                        <a class="owl-stop">멈춤</a>
+                        <a class="owl-next ">다음슬라이드</a>
+                    </div>
+                    <div class="owl-dots">
+                        <div class="owl-dot">
+                            <a>슬라이드1</a>
+                        </div>
+                        <div class="owl-dot">
+                            <a>슬라이드2</a>
+                        </div>
+                        <div class="owl-dot active">
+                            <a>슬라이드3</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--헤더 끝-->
+        </section>
+        <!--새소식 시작-->
+        <section id="news_area">
+            <header>
+                <h2>새로운소식</h2>
+            </header>
+            <ul class="category">
+                <li class="active" id="main_moaView">
+                    <a>모아보기</a>
+                    <div class="news_box owl-carousel owl-loaded" style="display: block;">
+                        <div class="owl-stage-outer">
+                            <div class="owl-stage" style="transition: all 0.25s ease 0s; width: 1250px;">
+                                <div class="owl-item active" style="width: 300px;">
+                                    <a class="news_slider" href="">
+                                        <span class="cate_title cate02">입찰정보</span>
+                                        <div class="text_area">
+                                            <p class="title">웹페이지 배끼기</p>
+                                            <div class="text">
+                                                <p>
+                                                    ㅇ 처음으로 배껴봐요
+                                                    <br>
+                                                    지금 배끼면서 글같은거 쓰고 있어요.
+                                                    <br>
+                                                    ㅇ 내용은 다르지만 코드는 그냥 똑같아요
+                                                </p>
+                                                <span class="date">완료 : 2020-07-15 ~ 2020-07-16</span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="owl-item active" style="width: 300px;">
+                                    <a class="news_slider" href="">
+                                        <span class="cate_title cate02">입찰정보</span>
+                                        <div class="text_area">
+                                            <p class="title">안뜨니까 답답하다</p>
+                                            <div class="text">
+                                                <p>
+                                                    ㅇ 미리 확인할 수 있는 방법
+                                                    <br>
+                                                    지금은 무작정 배끼고 있지만 나중에 설계하고 나만의 웹사이트를 만들면 이런걸 어떻게 하나하나 맞출 수 있을까
+                                                </p>
+                                                <span class="date">완료 : 2020-07-15 ~ 2020-07-16</span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="owl-item active" style="width: 300px;">
+                                    <a class="news_slider" href="">
+                                        <span class="cate_title cate02">이프차르저응보</span>
+                                        <div class="text_area">
+                                            <p class="title">안녕</p>
+                                            <div class="text">
+                                                <p>
+                                                    ㅇ 안녕
+                                                    <br>
+                                                    아무거나 쓰고 있다.
+                                                    <br>
+                                                    ㅇ 더미 내용
+                                                    <br>
+                                                    로럼 이프썸
+                                                </p>
+                                                <span class="date">완료 : 2020-07-15 ~ 2020-07-16</span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="owl-item active" style="width: 300px;">
+                                    <a class="news_slider" href="">
+                                        <span class="cate_title cate02">마지막이다 이말이야</span>
+                                        <div class="text_area">
+                                            <p class="title">내용 채우기용</p>
+                                            <div class="text">
+                                                <p>
+                                                    ㅇ 개요
+                                                    <br>
+                                                    아직 내용만 채우고 있지만 제발 잘 배껴졌으면 좋겠다.
+                                                    <br>
+                                                    ㅇ 이거 한섹션 끝날때 엄청기분좋음
+                                                </p>
+                                                <span class="date">완료 : 2020-07-15 ~ 2020-07-16</span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="owl-nav">
+                            <a class="owl-prev">이전슬라이드</a>
+                            <a class="owl-play">재생</a>
+                            <a class="owl-next">다음슬라이드</a>
+                            <span class="paging01">4</span>
+                        </div>
+                        <div class="owl-dots"></div>
+                    </div>
+                </li>
+                <li id="main_newSupport">
+                    <a>지원사업</a>
+                </li>
+                <li id="main_newInfo">
+                    <a>입찰정보</a>
+                </li>
+                <li id="main_newNotice">
+                    <a>공지사항</a>
+                </li>
+                <li id="main_newAlimBanner">
+                    <a>알림배너</a>
+                </li>
+            </ul>
+        </section>
+        <!--새소식 종료-->
+        <!--최근글 시작-->
+        <section id="latest_area">
+            <header>
+                <h2 class="blind">최근글</h2>
+            </header>
+            <div class="container">
+                <div class="alim_info_wrap">
+                    <div id="#main_alimBanner_m" class="alim_banner owl-carousel owl-loaded">
+                        <div class="owl-stage-outer">
+                            <div class="owl-stage">
+                                <div class="owl-item active">
+                                    <a href="https://www.culture.go.kr/contest/main.do" target="_black" title="제8회 문화데이터 활용 경진대회 새창열림">
+                                        <img src="http://www.kocca.kr/crawling/upload2013/portalAlert/images/02/B_202006050938471000.jpg" alt="문화데이터 활용 경진대회">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="owl-nav">
+                            <a href="" class="owl-prev">이전슬라이드</a>
+                            <a href="" class="owl-play" style="display: inline-block;">재생</a>
+                            <a href="" class="owl-next">다음슬라이드</a>
+                            <div id="paging02">1/4</div>
+                        </div>
+                        <!--owl-dot는 보이지 않음-->
+                    </div>
+                    <div class="info_zone">
+                        <div class="info_box">
+                            <h2>
+                                한국콘텐츠진흥원 신용평가 실시 및
+                                <br>
+                                제출서류(일자리창출 증빙 제출서류)
+                                <br>
+                                안내
+                            </h2>
+                            <ul>
+                                <li>
+                                    <a href="http://www.kocca.kr/cop/bbs/view/B0000137/1841529.do?menuNo=200827&noticevent=Y" id="main_business_1" title="새창">지원사업 신용평가</a>
+                                </li>
+                                <li>
+                                    <a href="http://www.kocca.kr/cop/bbs/view/B0000137/1841530.do?menuNo=200827&noticevent=Y" id="main_business_2" title="새창">입찰(위탁사업)신용평가</a>
+                                </li>
+                                <li class="last">
+                                    <a href="http://www.kocca.kr/cop/bbs/view/B0000137/1841577.do?menuNo=200827&noticevent=Y" id="main_business_3" title="새창">일자리창출 증빙 제출서류</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="info_banner">
+                            <ul class="top_bn">
+                                <li id="main_gongsi">
+                                    <a href="http://www.kocca.kr/cop/contents.do?menuNo=201624" class=" line01_2">
+                                        경영공시
+                                        <br>
+                                        <span>바로가기</span>
+                                    </a>
+                                </li>
+                                <li id="main_info">
+                                    <a href="http://www.kocca.kr/cop/contents.do?menuNo=201066" class="line01_3">
+                                        정보공개
+                                        <br>
+                                        <span>바로가기</span>
+                                    </a>
+                                </li>
+                            </ul>
+                            <ul class="bot_bn">
+                                <li id="main_candidate">
+                                    <a href="https://pms.kocca.kr/epms/" class="line02_1" target="_blank" title="새창">
+                                        콘텐츠
+                                        <br>
+                                        평가위원
+                                        <br>
+                                        <span>(후보)신청하기</span>
+                                    </a>
+                                </li>
+                                <li id="main_candidate2">
+                                    <a href="https://ctrd.kocca.or.kr/ext/main/main.jsp" class="line02_2" target="_blank">
+                                        문화기술
+                                        <br>
+                                        평가위원
+                                        <br>
+                                        <span>(후보)신청하기</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <ul class="quick_banner">
+                    <li id="main_bogo" class="icon1">
+                        <span>연구보고서</span>
+                        <a href="http://www.kocca.kr/cop/bbs/list/B0000147.do?menuNo=201825">자세히보기</a>
+                    </li>
+                    <li id="main_totalInfo" class="icon2">
+                        <span>산업통계정보</span>
+                        <a href="http://www.kocca.kr/cop/bbs/list/B0000148.do?menuNo=200907">자세히보기</a>
+                    </li>
+                    <li id="main_analysis" class="icon3">
+                        <span>대충전구반짝</span>
+                        <a href="http://www.kocca.kr/cop/bbs/list/B0000149.do?menuNo=200910">자세히보기</a>    
+                    </li>
+                    <li id="main_Ncontent" class="icon4">
+                        <span>N콘텐츠</span>
+                        <a href="http://www.kocca.kr/cop/ncont/list.do?menuNo=203607">자세히보기</a>    
+                    </li>
+                    <li id="main_CONZIN" class="icon5">
+                        <span>콘진</span>
+                        <a href="http://www.kocca.kr/cop/bbs/list/B0000173.do?menuNo=201730">자세히보기</a>    
+                    </li>
+                </ul>
+                <div class="latest_box" id="main_bodo">
+                    <h3>보도자료</h3>
+                    <a href="http://www.kocca.kr/cop/bbs/list/B0000138.do?menuNo=200831" id="main_bodoMore" class="view_more">모두보기</a>
+                    <ul>
+                        <li>
+                            <span>2020-07-22</span>
+                            <a href="#">
+                                콘진원, 랜선포럼으로 코로나19 시대 콘텐츠 산업에 새로운 기회 모색
+                            </a>
+                        </li>
+                        <li>
+                            <span>2020-07-20</span>
+                            <a href="#">콘진원, 온라인 콘텐츠수출애로상담센터 개설 코로나 19로 인한 해외진출 어려움 해소한다.</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <!--최근글 종료--><!--20200722-->
+    </body>
+</html>
