@@ -899,3 +899,77 @@ background: #3a589e url(http://www.kocca.kr/img/main/li_bot_bn.png) 87% 43px no-
     color: #fff;
     margin-top: 8px;
 }
+#footer_area{
+    padding-bottom: 45px;
+    border-top: #a5a5a5 solid 1px;
+}
+.relative_site{
+    position: relative;
+    padding: 26px 30px;
+    border-left: #a5a5a5 solid 1px;
+    border-right: #a5a5a5 solid 1px;
+    border-bottom: #a5a5a5 solid 1px;
+    height: 80px;
+}
+.relative_site h3{
+    float: left;
+    font-size: 14px;
+    color: #3c3c3c;
+    line-height: 30px;
+}
+.relative_site .site_list{
+    margin-left: 260px;
+    width: 800px;
+    padding-top: 5px;
+}
+.relative_site .site_list a{
+    display: block;
+    font-size: 14px;
+    width: 135px;
+    border-right: #a3a3a3 solid 1px;
+    text-align: center;
+    line-height: 18px;
+}
+.relative_site .site_list .owl-item a{
+    padding: 0 20px;
+    width: auto;
+}
+.relative_site .site_list > .owl-nav{
+    display: block;
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    margin: 0 auto;
+    z-index: 300;
+}
+.relative_site .site_list > .owl-nav > a{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 0;
+    border: #a5a5a5 solid 1px;
+    text-indent: -9999px;
+}
+.relative_site .site_list > .owl-nav .owl-prev{
+    left: -125px;
+    background: url(http://www.kocca.kr/img/main/arrow_left_w.jpg) no-repeat;
+}
+.relative_site .site_list > .owl-nav .owl-play{
+    left: -96px;
+    background: url(http://www.kocca.kr/img/main/arrow_play_w.jpg) no-repeat;
+}
+.relative_site .site_list > .owl-nav .owl-next{
+    left: -67px;
+    background: url(http://www.kocca.kr/img/main/arrow_right_w.jpg) no-repeat;
+}
+.relative_site .site_list > .owl-nav #view_all{
+    left: -38px;
+    background: url(http://www.kocca.kr/img/main/view_all.jpg) no-repeat;
+}
+.relative_site .go_top{
+    position: absolute;
+    right: 0;
+    top: 0;
+    border-left: #a5a5a5 solid 1px;
+    height: 80px;
+}
