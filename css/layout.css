@@ -775,3 +775,127 @@ background: #3a589e url(http://www.kocca.kr/img/main/li_bot_bn.png) 87% 43px no-
     white-space: nowrap;
     color: #282828;
 }
+#sns_area{
+    background: url(http://www.kocca.kr/img/main/bg_sns.gif) center no-repeat;
+    padding: 60px 0 0 0;
+    background-size: cover;
+    min-height: 548px;
+}
+#sns_area h2{
+    color: #fff;
+    font-size: 32px;
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+.sns_tab{
+    position: relative;
+}
+.sns_tab > li > a{
+    position: absolute;
+    top: -80px;
+    display: block;
+    border: #868ca5 solid 1px;
+    border-radius: 30px;
+    padding: 10px 0 8px 0;
+    width: 100px;
+    text-align: center;
+    color: #fff;
+    font-size: 12px;
+} 
+
+.sns_tab > li.active > a, .sns_tab >li:hover > a{
+    background: #fff;
+    color: #000;
+    border: #000 solid 1px;
+} 
+.sns_tab > li:nth-child(1) > a{
+    right: 440px;
+}
+.sns_tab > li:nth-child(2) > a{
+    right: 330px;
+}
+.sns_tab > li:nth-child(3) > a{
+    right: 220px;
+}
+.sns_tab > li:nth-child(4) > a{
+    right: 110px;
+}
+.sns_tab > li:nth-child(5) > a{
+    right: 0px;
+}
+.sns_tab > li.active > ul{
+    display: block;
+    height: 406px;
+}
+.sns_tab > li.active > ul > li{
+    padding-bottom: 50px;
+}
+
+.sns_tab > li > ul{
+    display: none;
+}
+
+.sns_list li{
+    position: relative;
+    float: left;
+    width: 300px;
+    height: 406px;
+    padding-left: 20px;
+    padding-right: 50px;
+    border-left: #111 solid 1px;
+}
+
+.sns_list li i{
+    position: absolute;
+    left: 0;
+    top: -10;
+    display: block;
+    width: 60px;
+    height: 60px;
+    background: no-repeat center;
+}
+
+.sns_list li i.icon_face{
+    background: url(http://www.kocca.kr/img/main/icon_facebook.gif);
+}
+.sns_list li i.icon_naver{
+    background: url(http://www.kocca.kr/img/main/icon_naver.gif);
+}
+.sns_list li i.icon_tis{
+    background: url(http://www.kocca.kr/img/main/icon_tistory.gif);
+}
+
+.sns_list li .img_box{
+    width: 230px;
+    height: 150px;
+    background-size: contain;
+}
+.sns_list li span, .sns_list li .con_txt{
+    color: #fff;
+    font-size: 14px;
+}
+.sns_list li span{
+    display: block;
+    margin: 18px 0;
+}
+.sns_list li .con_txt{
+    margin-bottom: 25px;
+    line-height: 1.3;
+}
+.sns_list li .con_txt a{
+    display: -webkit-box;
+    height: 110px;
+    line-height: 1.3;
+    color: #fff;
+    white-space: normal;
+    word-break: break-word;
+    -webkit-line-clamp: 6;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+.sns_list li .view_more{
+    display: inline-block;
+    font-size: 12px;
+    color: #fff;
+    margin-top: 8px;
+}
