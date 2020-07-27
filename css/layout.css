@@ -973,3 +973,56 @@ background: #3a589e url(http://www.kocca.kr/img/main/li_bot_bn.png) 87% 43px no-
     border-left: #a5a5a5 solid 1px;
     height: 80px;
 }
+.bottom_menu{
+    margin: 40px 0;
+}
+.bottom_menu li{
+    display: inline-block;
+    font-size: 18px;
+    margin-right: 25px;
+}
+.bottom_menu li a{
+    color: #303030;
+}
+.bottom_menu li a.bold{
+    color: #03c;
+    font-weight: 500;
+}
+.copyright p{
+    color: #6c6c6c;
+    font-size: 11px;
+    line-height: 1.5;
+}
+.shortcut_menu{
+    float: right;
+    margin-top: -50px;
+}
+.shortcut_menu li{
+    display: inline-block;
+    font-size: 11px;
+}
+.shortcut_menu li a{
+    display: block;
+    border-radius: 50px;
+    color: #fff;
+    padding: 10px 20px;
+}
+.shortcut_menu li:nth-child(1) a{
+    background: #003881;
+}
+.shortcut_menu li:nth-child(2) a{
+    background: #1c7eab;
+}
+.shortcut_menu li:nth-child(3) a{
+    background: #005b60;
+}
+.shortcut_menu li:nth-child(4) a{
+    background: #34478e;
+}
+.icon_menu{
+    margin-top: 18px;
+}
+.icon_menu li{
+    display: inline-block;
+    margin-right: 12px;
+}
