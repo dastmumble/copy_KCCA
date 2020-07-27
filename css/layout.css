@@ -1,0 +1,1028 @@
+
+html, body{
+    min-width: 1200px;
+}
+header, footer{
+    min-width: 1200px;
+}
+.owl-carousel{
+    display: none;
+    width: 100%;
+    -webkit-tap-highlight-color: transparent;
+    position: relative;
+    z-index: 1;
+}
+.owl-carousel .owl-stage-outer{
+    position: relative;
+    overflow: hidden;
+}
+.owl-carousel .owl-stage{
+    position: relative;
+    margin: 0 auto;
+}
+.owl-carousel .owl-item{
+    position: relative;
+    min-height: 1px;
+    display: inline-block;
+    vertical-align: top;
+    float: left;
+}
+.owl-carousel.owl-loaded{
+    display: block;
+}
+.top-wide-popup{
+    height: 0;
+    border-bottom: 1px solid #959595;
+    overflow: hidden;
+    z-index: 2000;
+}
+#topBanner{
+    position: relative;
+    width: 100%;
+    height: 0;
+    background: #f2f2f2;
+
+}
+#topBanner .top_wide{
+    position: relative;
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0;
+}
+#topBanner .top_wide .txt{
+    height: 110px;
+    margin: 0;
+}
+#topBanner .top_wide .close_button{
+    position: absolute;
+    right: 10px;
+    top:10px;
+    z-index: 10;
+    font-size: 13px;
+    line-height: 1.15em;
+}
+
+#topBanner .top_wide .close_button .close {
+    margin: 0 auto;
+}
+#topBanner .top_wide .close_button .close *{
+    color: white;
+    vertical-align: middle;
+}
+#topBanner .top_wide .close_button .close button{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    margin: 0;
+    border: 0;
+    background: url(http://portal.kocca.kr/images/portal/btn_bnr_close_m_20181011.png) 0px 0 no-repeat;
+}
+#topBanner .top_wide .close_button .close button span{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(1px,1px,1px,1px);
+    border: 0;
+}
+body {
+    margin:0;
+}
+#header_area{
+    background: url(http://www.kocca.kr/img/main/bg_header.jpg) center no-repeat;
+    background-size: cover;
+}
+#header_area header{
+    padding-top: 40px;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+.container::after{
+    display: block;
+    clear: both;
+    content: "";
+}
+#header_area header .logo{
+    float: left;
+}
+#header_area header .logo a{
+    display: block;
+    line-height: 0;
+}
+#header_area header .tnb{
+    float: right;
+}
+.tnb > li{
+    position: relative;
+    float: left;
+    font-size: 12px;
+    border-right: #fff solid 1px;
+}
+.tnb > li > a{
+    display: block;
+    color: #fff;
+    padding: 2px 10px 0 10px;
+}
+.tnb > li.language{
+    font-family: 'Exo 2', sans-serif !important;
+    font-weight: 700;
+}
+.tnb > li.language >a{
+    display: block;
+    color: #fff;
+    padding: 0px 10px 2px;
+}
+.tnb > li.no_line{
+    border-right: 0;
+}
+.total_arr_cop{
+    margin-right: 11px;
+    padding-right: 15px !important;
+    background: url(http://www.kocca.kr/img/main/bg_global.png) no-repeat right 50%;
+    height: 15px;
+}
+.total_menu_cop{
+    display: block;
+    position: absolute;
+    top: 10px;
+    right: 0;
+    padding: 15px 0 19px;
+    text-align: left;
+    z-index: 105;
+}
+.total_menu_arr_cop{
+    display: block;
+    position: absolute;
+    right: 48px;
+    top: 7px;
+    width: 14px;
+    height: 9px;
+    background: url(http://www.kocca.kr/img/main/total_menu_arr.png) right top no-repeat;
+}
+.blind{
+    position: absolute;
+    overflow: hidden;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin-top: -1px;
+    font-size: 0;
+    text-indent: -9999px;
+    
+}
+.total_menu_cop > ul{
+    float: left;
+    width: 377px;
+    padding: 0;
+    border: 1px solid #ddd;
+    background: #fff;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    -webkit-box-shadow: 0px 0px 1px 1px #ddd;
+    -moz-box-shadow: 0px 0px 1px 1px #ddd;
+    box-shadow: 0px 0px 1px 1px #ddd;
+}
+.total_menu_cop ul li{
+    float: left;
+    padding: 17px 19px 14px;
+}
+.total_menu_cop h4{
+    margin-bottom: 5px;
+    margin-top: 14px;
+    color: #444;
+    font-size: 14px;
+}
+.mt0{
+    margin-top: 0 !important;
+}
+.total_menu_cop li li{
+    float: none;
+    height: auto;
+    border: none;
+    padding: 0;
+    margin-bottom: 0;
+    line-height: 1.4;    color: #777;
+    font-size: 13px;
+}
+.total_menu_cop ul li.listBox2, .total_menu_cop ul li.listBox3, .total_menu_cop ul li.listBox4, .total_menu_cop ul li.listBox5 {
+    float: right;
+    min-width: 168px;
+    padding: 14px 0 8px 20px;
+    border-bottom: 1px solid #ddd;
+    border-left: 1px solid #ddd;
+}
+.total_menu_cop ul li.listBox2{
+    padding-top: 17px;
+}
+.brn{
+    border-right: none !important;
+}
+.bbn{
+    border-bottom: none
+    !important;
+}
+.gnb_wrap{
+    position: relative;
+    clear: both;
+}
+.gnb_wrap .container{
+    border-bottom: 1px solid #fff;
+}
+.gnb_wrap .gnb >li{
+    position: relative;
+    float: left;
+    font-size: 21px;
+    font-weight: 700;
+}
+.gnb_wrap .gnb > li > a{
+    display: block;
+    color: #fff;
+    padding: 35px 0 19px 0;
+    margin: 0 60px 0 0;
+}
+.gnb_wrap .etc_btn_box {
+    float: right;
+    margin-top: 33px;
+}
+.gnb_wrap .etc_btn_box .search_btn{
+    position: relative;
+    background: url(http://www.kocca.kr/img/common/icon_search.png) center no-repeat;
+    margin-right: 23px;
+}
+.gnb_wrap .etc_btn_box .search_btn::after{
+    display: block;
+    position: absolute;
+    right: -23px;
+    top: 0;
+    width: 1px;
+    height: 23px;
+    background: #fff;
+    content: "";
+}
+.gnb_wrap .etc_btn_box > a{
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    text-indent: -9999px;
+}
+.gnb_wrap .etc_btn_box .menu_btn{
+    background: url(http://www.kocca.kr/img/common/icon_menu.png) center no-repeat;
+    margin-left: 23PX;
+}
+.visual_text{
+    float: left;
+    margin-top: 54px;
+}
+.visual_text .background p{
+    color: #fff;
+    font-size: 24px;
+    margin-top: 50px;
+    line-height: 1.3;
+}
+.pr_banner{
+    float: right;
+    margin-top: 54px;
+    margin-right: 72px;
+    margin-bottom: 120px;
+    width: 570px;
+    height: 370px;
+    display: block;
+    position: relative;
+    z-index: 1;
+}
+.pr_banner .owl-item{
+    position: relative;
+    min-height: 1px;
+    display: inline-block;
+    vertical-align: top;
+}
+.pr_banner > .owl-nav{
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    margin: -30px auto 0 auto;
+    z-index: 300;
+}
+.pr_banner > .owl-nav .owl-prev{
+    left: -70px;
+    background: url(http://www.kocca.kr/img/main/arrow_left_b.png) center no-repeat;
+    background-size: cover;
+}
+.pr_banner > .owl-nav > a{
+    width: 29px;
+    height: 55px;
+    position: absolute;
+    top: 0;
+    text-indent: -9999px;
+}
+.pr_banner > .owl-nav .owl-stop{
+    background: url(http://www.kocca.kr/img/main/v_stop.png) center no-repeat;
+    background-size: cover;
+    margin-top: 247px;
+    width: 18px;
+    height: 18px;
+    right: 0px;
+}
+.pr_banner > .owl-nav .owl-next{
+    background: url(http://www.kocca.kr/img/main/arrow_right_b.png) center no-repeat;
+    background-size: cover;
+    right: -70px;
+}
+.pr_banner .owl-dots{
+    position: absolute;
+    width: 100%;
+    bottom: -50px;
+    text-align: right;
+    padding-right: 25px;
+}
+.pr_banner .owl-dots .owl-dot{
+    display: inline-block;
+    text-align: left;
+}
+.pr_banner .owl-dots .owl-dot a{
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    margin: 0 8px;
+    background: #b6b4b3;
+    border-radius: 18px;
+    transition: ease-in 0.3s;
+    text-indent: -9999px;
+}
+.pr_banner .owl-dots .owl-dot.active a{
+    width: 63px;
+    background: #0098ff;
+    transition: ease-in 0.3s;
+}
+#news_area{
+    position: relative;
+    min-height: 700px;
+    padding-top: 66px;
+    padding-bottom: 45px;
+    background: url(http://www.kocca.kr/img/main/bg_news.gif) center no-repeat;
+    background-size: cover;
+}
+#news_area header{
+    width: 100%;
+    height: auto;
+}
+#news_area header h2{
+    font-size: 36px;
+    text-align: center;
+}
+.category{
+    position: relative;
+    padding: 34px 0 50px;
+    text-align: center;
+}
+.category > li{
+    display: inline-block;
+    margin: 5px;
+}
+.category > li > a{
+    display: block;
+    border: #7a8a92 solid 1px;
+    border-radius: 30px;
+    padding: 8px 30px;
+    font-size: 14px; 
+}
+.category > li.active > a{
+    background: #fff;
+}
+.category > li > a:hover{
+    background: #fff;
+}
+.category > li .news_box{
+    display: none;
+}
+.category > li.active .news_box{
+    display: block;
+}
+.news_box{
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 110px;
+    align-items: center;
+    min-width: 1200px;
+    width: 100%;
+}
+.news_box .owl-stage-outer{
+    min-height: 360px;
+}
+.news_box .news_slider{
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    border: #e4e4e4 
+    solid 1px;
+    width: 282px;
+    height: 362px;
+    background: #fff;
+    padding: 25px;
+    text-align: left;
+    vertical-align: top;
+}
+.news_box .cate_title{
+    display: block;
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+.news_box .cate02{
+    color: #a91324;
+}
+.news_box .text_area .title{
+    font-size: 18px;
+    line-height: 1.2;
+    color: #282828;
+    margin-bottom: 25px;
+    min-height: 63px;
+    white-space: nowrap;
+    overflow: hidden;
+    white-space: normal;
+    height: 3.5em;
+    text-align: left;
+    word-wrap: break-word;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+.news_box .text_area .text{
+    font-size: 14px;
+    color: #5e5e5e;
+    line-height: 1.5;
+    height: 170px;
+    overflow: hidden;
+}
+.news_box .text_area .text p{
+    white-space: nowrap;
+    overflow: hidden;
+    white-space: normal;
+    height: 127px;
+    text-align: left;
+    word-wrap: break-word;
+    display: -webkit-box;
+    -webkit-line-clamp: 6;
+    -webkit-box-orient: vertical;
+}
+.news_box .text_area .text .date{
+    position: absolute;
+    bottom: 20px;
+}
+.news_box > .owl-nav{
+    position: relative;
+    display: block;
+    width: 90px;
+    margin: 48px auto 0;
+    border: #7a8a92 solid 1px;
+    padding: 10px 0;
+    border-radius: 50px;
+    z-index: 300;
+}
+.news_box > .owl-nav > a{
+    display: inline-block;
+    text-indent: -9999px;
+}
+.news_box > .owl-nav > .owl-prev, .news_box > .owl-nav > .owl-next{
+    width: 27px;
+    height: 19px;
+}
+.news_box > .owl-nav > .owl-prev{
+    position: absolute;
+    left: -40px;
+    background: url(http://www.kocca.kr/img/main/arrow_left_s.png) center no-repeat;
+    background-size: contain;
+}
+.news_box > .owl-nav > .owl-next{
+    position: absolute;
+    right: -40px;
+    background: url(http://www.kocca.kr/img/main/arrow_right_s.png) center no-repeat;
+    background-size: contain;
+}
+.news_box > .owl-nav .owl-play{
+    width: 17px;
+    height: 17px;
+    margin: 0 5px;
+    padding: 0 10px;
+    background: url(http://www.kocca.kr/img/main/play.png) center no-repeat;
+}
+.news_box .paging01{
+    display: inline-block;
+    line-height: 15px;
+    padding-top: 3px;
+    font-size: 18px;
+    vertical-align: middle;
+}
+#latest_area{
+    padding-top: 85px;
+    padding-bottom: 55px;
+}
+#latest_area::after{
+    display: block;
+    content: "";
+    clear: both;
+}
+.alim_info_wrap{
+    width: 100%;
+    border: 1px solid #b8b8b8;
+    overflow: hidden;
+}
+.alim_banner{
+    float: left;
+    width: 480px;
+    height: 270px;
+}
+
+.alim_banner > .owl-nav{
+    display: block;
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    width: 100%;
+    margin: 0 auto;
+    z-index: 300;
+}
+.alim_banner > .owl-nav .owl-prev{
+    left: 0;
+    background: url(http://www.kocca.kr/img/main/arrow_left_pc.jpg) no-repeat;
+}
+.alim_banner > .owl-nav > a{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 0;
+    text-indent: -9999px;
+}
+.alim_banner > .owl-nav .owl-play{
+    display: none;
+    left: 31px;
+    background: url(http://www.kocca.kr/img/main/arrow_play.jpg) no-repeat;
+}
+.alim_banner > .owl-nav .owl-next{
+    left: 62px;
+    background: url(http://www.kocca.kr/img/main/arrow_right_pc.jpg) no-repeat;
+}
+.alim_banner #paging02{
+    position: absolute;
+    width: 387px;
+    left: 93px;
+    padding: 0 10px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 14px;
+    color: #fff;
+    background: #333;
+    letter-spacing: 0.2em;
+}
+.info_zone{
+    float: right;
+    width: 718px;
+    border-left: 1px solid #b8b8b8;
+}
+.info_zone .info_box{
+    float: left;
+    width: 358px;
+    height: 300px;
+    background: url(http://www.kocca.kr/img/main/bg_info_box.gif) center top repeat;
+}
+.info_zone .info_box h2{
+    font-size: 20px;
+    font-weight: 600;
+    padding: 40px 0 20px 16px;
+    line-height: 1.2;
+    color: #fff;
+}
+.info_zone .info_box ul{
+    margin: 0 15px 15px 14px;
+    padding:  22px 20px 0;
+    background: #eeeae7;
+    border-radius: 6px;
+    overflow: hidden;
+}
+.info_zone .info_box ul li{
+    float: left;
+    width: 100%;
+    margin-bottom: 22px;
+    padding-left:  16px;
+    background: url(http://www.kocca.kr/img/main/li_info_box.png) left 2px no-repeat;
+}
+.info_zone .info_box ul li a{
+ font-size: 16px;
+ font-weight: 600;
+ color: #262626;
+}
+.info_zone .info_banner{
+    float: left;
+    width: 359px;
+    height: 300px;
+}
+.info_zone .info_banner .top_bn{
+    width: 100%;
+    border-bottom: 1px solid #b8b8b8;
+    background: url(http://www.kocca.kr/img/main/bg_top_bn.gif) left top repeat-x;
+    overflow: hidden;
+}
+.info_zone .info_banner .top_bn li{
+    float: left;
+    width: 50%;
+    border-left: 1px solid #b8b8b8;
+}
+.info_zone .info_banner .top_bn li a{
+    display: block;
+    height: 150px;
+    padding-top: 35px;
+    text-align: center;
+    font-size: 21px;
+    font-weight: 600;
+    color: #262626;
+}
+.info_zone .info_banner .top_bn li span{
+    display: inline-block;
+    height: 68px;
+    padding-top: 8px;
+    font-size: 14px;
+    color: #777373;
+    background: url(http://www.kocca.kr/img/main/li_top_bn.png) center bottom no-repeat;
+}
+.info_zone .info_banner .bot_bn{
+    width: 100%;
+    overflow: hidden;
+}
+.info_zone .info_banner .bot_bn li{
+    float: left;
+    width: 50%;
+    border-left: 1px solid #b8b8b8;
+}
+.info_zone .info_banner .bot_bn .line02_1{
+background: #3a589e url(http://www.kocca.kr/img/main/li_bot_bn.png) 87% 43px no-repeat;
+}
+.info_zone .info_banner .bot_bn li a{
+    display: block;
+    height: 149px;
+    padding: 40px 20px 0 20px;
+    color: #fff;
+    font-size: 21px;
+    line-height: 1.2;
+    font-weight: 600;
+}
+.info_zone .info_banner .bot_bn li a span{
+    font-size: 18px;
+    font-weight: 550;
+}
+.info_zone .info_banner .bot_bn .line02_2{
+    background: #0c83e8 url(http://www.kocca.kr/img/main/li_bot_bn.png) 87% 43px no-repeat;
+    }
+.quick_banner{
+    clear: both;
+    margin-bottom: 76px;
+    padding-top: 70px;
+    overflow: hidden;
+}
+.quick_banner li{
+    float: left;
+    border: 1px solid #999;
+    width: 220px;
+    height: 180px;
+    margin-right: 25px;
+    padding: 45px 30px;
+}
+
+.quick_banner li:last-child {
+    margin-right: 0;
+}
+.quick_banner li span{
+    display: block;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+.quick_banner li a{
+    display: inline-block;
+    font-size: 14px;
+}
+.quick_banner li a::after{
+    display: block;
+    width: 100%;
+    height: 1px;
+    background: #dcdcdc;
+    content: '';
+    margin-top: 3px;
+}
+.quick_banner li.icon1{
+    background: url(http://www.kocca.kr/img/main/icon_quick01.gif) 85% 85% no-repeat;
+}
+.quick_banner li.icon2{
+    background: url(http://www.kocca.kr/img/main/icon_quick02.gif) 85% 85% no-repeat;
+}
+.quick_banner li.icon3{
+    background: url(http://www.kocca.kr/img/main/icon_quick03.gif) 85% 85% no-repeat;
+}
+.quick_banner li.icon4{
+    background: url(http://www.kocca.kr/img/main/icon_quick04.gif) 85% 85% no-repeat;
+}
+.quick_banner li.icon5{
+    background: url(http://www.kocca.kr/img/main/icon_quick05.gif) 85% 85% no-repeat;
+}
+.latest_box{
+    position: relative;
+}
+.latest_box h3{
+    float: left;
+    font-size: 32px;
+    margin-top: 6px;
+    margin-right: 27px;
+    color: #0d0d0d;
+    font-weight: 600;
+}
+.latest_box .view_more{
+    float: left;
+    display: block;
+    border: #999 solid 1px;
+    padding: 13px 0;
+    width: 100px;
+    text-align: center;
+    font-size: 12px;
+}
+.latest_box ul{
+    float: left;
+    width: 75%;
+    padding-left: 15px;
+    margin-left: 40px;
+}
+.latest_box ul li{
+    float: left;
+    width: 45%;
+    margin-right: 2.5%;
+    overflow: hidden;
+}
+.latest_box ul li span{
+    display: block;
+    color: #646464;
+    margin-bottom: 10px;
+}
+.latest_box ul li a{
+    display: block;
+    width: 100%;
+    font-size: 18px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    color: #282828;
+}
+#sns_area{
+    background: url(http://www.kocca.kr/img/main/bg_sns.gif) center no-repeat;
+    padding: 60px 0 0 0;
+    background-size: cover;
+    min-height: 548px;
+}
+#sns_area h2{
+    color: #fff;
+    font-size: 32px;
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+.sns_tab{
+    position: relative;
+}
+.sns_tab > li > a{
+    position: absolute;
+    top: -80px;
+    display: block;
+    border: #868ca5 solid 1px;
+    border-radius: 30px;
+    padding: 10px 0 8px 0;
+    width: 100px;
+    text-align: center;
+    color: #fff;
+    font-size: 12px;
+} 
+
+.sns_tab > li.active > a, .sns_tab >li:hover > a{
+    background: #fff;
+    color: #000;
+    border: #000 solid 1px;
+} 
+.sns_tab > li:nth-child(1) > a{
+    right: 440px;
+}
+.sns_tab > li:nth-child(2) > a{
+    right: 330px;
+}
+.sns_tab > li:nth-child(3) > a{
+    right: 220px;
+}
+.sns_tab > li:nth-child(4) > a{
+    right: 110px;
+}
+.sns_tab > li:nth-child(5) > a{
+    right: 0px;
+}
+.sns_tab > li.active > ul{
+    display: block;
+    height: 406px;
+}
+.sns_tab > li.active > ul > li{
+    padding-bottom: 50px;
+}
+
+.sns_tab > li > ul{
+    display: none;
+}
+
+.sns_list li{
+    position: relative;
+    float: left;
+    width: 300px;
+    height: 406px;
+    padding-left: 20px;
+    padding-right: 50px;
+    border-left: #111 solid 1px;
+}
+
+.sns_list li i{
+    position: absolute;
+    left: 0;
+    top: -10;
+    display: block;
+    width: 60px;
+    height: 60px;
+    background: no-repeat center;
+}
+
+.sns_list li i.icon_face{
+    background: url(http://www.kocca.kr/img/main/icon_facebook.gif);
+}
+.sns_list li i.icon_naver{
+    background: url(http://www.kocca.kr/img/main/icon_naver.gif);
+}
+.sns_list li i.icon_tis{
+    background: url(http://www.kocca.kr/img/main/icon_tistory.gif);
+}
+
+.sns_list li .img_box{
+    width: 230px;
+    height: 150px;
+    background-size: contain;
+}
+.sns_list li span, .sns_list li .con_txt{
+    color: #fff;
+    font-size: 14px;
+}
+.sns_list li span{
+    display: block;
+    margin: 18px 0;
+}
+.sns_list li .con_txt{
+    margin-bottom: 25px;
+    line-height: 1.3;
+}
+.sns_list li .con_txt a{
+    display: -webkit-box;
+    height: 110px;
+    line-height: 1.3;
+    color: #fff;
+    white-space: normal;
+    word-break: break-word;
+    -webkit-line-clamp: 6;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+.sns_list li .view_more{
+    display: inline-block;
+    font-size: 12px;
+    color: #fff;
+    margin-top: 8px;
+}
+#footer_area{
+    padding-bottom: 45px;
+    border-top: #a5a5a5 solid 1px;
+}
+.relative_site{
+    position: relative;
+    padding: 26px 30px;
+    border-left: #a5a5a5 solid 1px;
+    border-right: #a5a5a5 solid 1px;
+    border-bottom: #a5a5a5 solid 1px;
+    height: 80px;
+}
+.relative_site h3{
+    float: left;
+    font-size: 14px;
+    color: #3c3c3c;
+    line-height: 30px;
+}
+.relative_site .site_list{
+    margin-left: 260px;
+    width: 800px;
+    padding-top: 5px;
+}
+.relative_site .site_list a{
+    display: block;
+    font-size: 14px;
+    width: 135px;
+    border-right: #a3a3a3 solid 1px;
+    text-align: center;
+    line-height: 18px;
+}
+.relative_site .site_list .owl-item a{
+    padding: 0 20px;
+    width: auto;
+}
+.relative_site .site_list > .owl-nav{
+    display: block;
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    margin: 0 auto;
+    z-index: 300;
+}
+.relative_site .site_list > .owl-nav > a{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 0;
+    border: #a5a5a5 solid 1px;
+    text-indent: -9999px;
+}
+.relative_site .site_list > .owl-nav .owl-prev{
+    left: -125px;
+    background: url(http://www.kocca.kr/img/main/arrow_left_w.jpg) no-repeat;
+}
+.relative_site .site_list > .owl-nav .owl-play{
+    left: -96px;
+    background: url(http://www.kocca.kr/img/main/arrow_play_w.jpg) no-repeat;
+}
+.relative_site .site_list > .owl-nav .owl-next{
+    left: -67px;
+    background: url(http://www.kocca.kr/img/main/arrow_right_w.jpg) no-repeat;
+}
+.relative_site .site_list > .owl-nav #view_all{
+    left: -38px;
+    background: url(http://www.kocca.kr/img/main/view_all.jpg) no-repeat;
+}
+.relative_site .go_top{
+    position: absolute;
+    right: 0;
+    top: 0;
+    border-left: #a5a5a5 solid 1px;
+    height: 80px;
+}
+.bottom_menu{
+    margin: 40px 0;
+}
+.bottom_menu li{
+    display: inline-block;
+    font-size: 18px;
+    margin-right: 25px;
+}
+.bottom_menu li a{
+    color: #303030;
+}
+.bottom_menu li a.bold{
+    color: #03c;
+    font-weight: 500;
+}
+.copyright p{
+    color: #6c6c6c;
+    font-size: 11px;
+    line-height: 1.5;
+}
+.shortcut_menu{
+    float: right;
+    margin-top: -50px;
+}
+.shortcut_menu li{
+    display: inline-block;
+    font-size: 11px;
+}
+.shortcut_menu li a{
+    display: block;
+    border-radius: 50px;
+    color: #fff;
+    padding: 10px 20px;
+}
+.shortcut_menu li:nth-child(1) a{
+    background: #003881;
+}
+.shortcut_menu li:nth-child(2) a{
+    background: #1c7eab;
+}
+.shortcut_menu li:nth-child(3) a{
+    background: #005b60;
+}
+.shortcut_menu li:nth-child(4) a{
+    background: #34478e;
+}
+.icon_menu{
+    margin-top: 18px;
+}
+.icon_menu li{
+    display: inline-block;
+    margin-right: 12px;
+}
